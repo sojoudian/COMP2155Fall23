@@ -1,5 +1,6 @@
 #Print Wordking directory (folder)
 import os
+os.mkdir("testDir")
 os.chdir("testDir")
 #pwd
 current_dir = os.getcwd()
