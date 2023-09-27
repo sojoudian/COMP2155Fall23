@@ -8,3 +8,4 @@ c= Course()
 c.coursesName()
 
 d = Course()
+d.coursesName()
