@@ -11,3 +11,14 @@ a = Student("John", 22, 500222100)
 #Access the attribute:
 print(s.name)
 print(a.name, a.age)
+
+
+# class Course:
+#     def __init__(self, name):
+#         self.CourseName = name
+#     def printCourseName(self):
+#         print(self.CourseName)
+
+
+# c = Course("Network Automation")
+# print(c.CourseName)
