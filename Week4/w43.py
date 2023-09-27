@@ -3,4 +3,4 @@ class Greeting:
         print(f"hello, {name}!")
 
 a = Greeting()        
-a.say_hi("World")
+a.say_hi("Python")
