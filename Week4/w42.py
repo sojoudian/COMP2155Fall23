@@ -5,4 +5,8 @@ class Person:
         self.full_name = name
         self.age = age
     def get_age(self):
+        print(self.age)
         return self.age
+    
+maz = Person("Maz", 35)
+name = maz.get_age
