@@ -9,3 +9,5 @@ c.coursesName()
 
 d = Course()
 d.coursesName()
+
+# we will wait for 5 minutes, for everyone to RUN this code
