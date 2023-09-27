@@ -10,3 +10,11 @@ class Person:
     
 maz = Person("Maz", 35)
 name = maz.get_age
+
+class Student:
+    def __init__(self, name, age, studentID):
+        self.name = name
+        self.age = age
+        self.studentID = studentID
+    def get_sID(self):
+        return self.studentID
