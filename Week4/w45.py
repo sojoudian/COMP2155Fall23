@@ -7,11 +7,7 @@ class Student:
         return self.studentID
     
 s = Student("Maz", 35, 500112233)
+a = Student("John", 22, 500222100)
 #Access the attribute:
 print(s.name)
-
-#Access the method of the classa
-s.get_sID()
-
-getattr(s, "get_sID")
-getattr(s, "get_Student_Course")
+print(a.name, a.age)
