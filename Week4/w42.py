@@ -6,9 +6,10 @@ class Student:
     def get_sID(self):
         return self.studentID
     
-s = Student("Maz", 35, 500112233)
+zeb = Student("Zebang", 26, 101406583)
 #Access the attribute:
-print(s.name)
+print(zeb.name)
+print(zeb.age)
 
 #Access the method of the classa
-s.get_sID()
+zeb.get_sID()

@@ -5,8 +5,9 @@ class Student:
         self.studentID = studentID
     def get_sID(self):
         return self.studentID
-    
-s = Student("Maz", 35, 500112233)
+
+
+s = Student("Zeb", 26, 101406583)
 #Access the attribute:
 print(s.name)
 
@@ -14,4 +15,4 @@ print(s.name)
 s.get_sID()
 
 getattr(s, "get_sID")
-getattr(s, "get_Student_Course")
+#getattr(s, "get_Student_Course")
