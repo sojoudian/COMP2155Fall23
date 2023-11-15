@@ -8,7 +8,8 @@ def show_version(a_device):
     try:
         remote_conn = ConnectHandler(**a_device)
         print("#" * 80)
-        print(remote_conn.send_command_expect("show version"))
+        print({a_device['host']}, remote_conn.send_command("show clock"))
+        #print(remote_conn.send_command_expect("show version"))
         print("#" * 80)
     except Exception as e:
         print(f"An error occurred with device {a_device['host']}: {e}")
